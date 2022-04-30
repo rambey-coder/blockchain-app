@@ -7,7 +7,7 @@ const Others = () => {
     }
 
   return (
-    <div className='w-[90%] mx-auto'>
+    <div className='w-[90%] mx-auto flex flex-col gap-40'>
         <div id='wallet' className='bg-walletbg  p-10 rounded-3xl'>
             <div className='flex items-center bg-walletcard w-1/5 py-4 px-3 rounded-xl'>
                 <i className="fa-solid fa-wallet text-walletcolor mr-3 text-2xl"></i>
@@ -47,8 +47,74 @@ const Others = () => {
                 </div>
             </div>
         </div>
-        <div id='exchange'></div>
-        <div id='explore'></div>
+
+        <div id='exchange' className='bg-exchangebg  p-10 rounded-3xl'>
+            <div className='flex items-center bg-exchangecard w-1/5 py-4 px-3 rounded-xl'>
+                <i className="fa-solid fa-chart-line text-exchangecolor mr-3 text-2xl"></i>
+                <h3 className='text-exchangecolor font-medium'>Exchange</h3>
+            </div>
+
+            <h1 className='text-exchangecolor font-semibold text-3xl my-5'>Lightning-Fast Crypto Trading</h1>
+
+            <div className='flex flex-col gap-8'>
+                <div className='bg-transparent border-2 border-exchangecard p-4 rounded-xl w-2/5 cursor-pointer' onClick={ () => {handleClick(5)}}>
+                    <h6 className='text-exchangecolor font-semibold'>Trade in 3 fiat currencies</h6>
+                    <p className={click === 5 ? 'text-exchangecolor mt-1 block' : 'text-exchangecolor mt-1 hidden transition ease-linear'}>The Exchange supports USD, EUR, and GBP.</p>
+                </div>
+
+                <div className='bg-transparent border-2 border-exchangecard p-4 rounded-xl w-2/5 cursor-pointer' onClick={() => {handleClick(6)}}>
+                    <h6 className='text-exchangecolor font-semibold opacity-100' >A matching engine that can keep up with you</h6>
+                    <p className={click === 6 ? 'text-exchangecolor mt-1 block' : 'text-exchangecolor mt-1 hidden transition ease-linear'}>The world’s fastest crypto matching engine, built by and for traders.</p>
+                </div>
+
+                <div className='bg-transparent border-2 border-exchangecard p-4 rounded-xl w-2/5 cursor-pointer' onClick={() => {handleClick(7)}}>
+                    <h6 className='text-exchangecolor font-semibold opacity-100' >24/7 live chat support</h6>
+                    <p className={click === 7 ? 'text-exchangecolor mt-1 block' : 'text-exchangecolor mt-1 hidden transition ease-linear'}>Chat with customer support directly in the Exchange, anytime.</p>
+                </div>
+
+                <div className='bg-transparent border-2 border-exchangecard p-4 rounded-xl w-2/5 cursor-pointer' onClick={() => {handleClick(8)}}>
+                    <h6 className='text-exchangecolor font-semibold opacity-100' >Margin Trading</h6>
+                    <p className={click === 8 ? 'text-exchangecolor mt-1 block' : 'text-exchangecolor mt-1 hidden transition ease-linear'}>More buying power means up to 5x the profit.</p>
+                </div>
+                <div>
+                    <button className='bg-exchangecolor py-3 px-5 rounded-xl text-exchangecard font-semibold'>Trade Now</button>
+                </div>
+            </div>
+        </div>
+
+        <div id='explore' className='bg-explorebg  p-10 rounded-3xl'>
+            <div className='flex items-center bg-explorecard w-1/5 py-4 px-3 rounded-xl'>
+                <i className="fa-regular fa-compass text-explorecolor mr-3 text-2xl"></i>
+                <h3 className='text-explorecolor font-medium'>Explore</h3>
+            </div>
+
+            <h1 className='text-explorecolor font-semibold text-3xl my-5'>Blockchain Data is in Our DNA</h1>
+
+            <div className='flex flex-col gap-8'>
+                <div className='bg-transparent border-2 border-explorecard p-4 rounded-xl w-2/5 cursor-pointer' onClick={ () => {handleClick(9)}}>
+                    <h6 className='text-explorecolor font-semibold'>Explore the top blockchains</h6>
+                    <p className={click === 9 ? 'text-explorecolor mt-1 block' : 'text-explorecolor mt-1 hidden transition ease-linear'}>Confirm transactions, analyze the market, or simply learn more about crypto.</p>
+                </div>
+
+                <div className='bg-transparent border-2 border-explorecard p-4 rounded-xl w-2/5 cursor-pointer' onClick={() => {handleClick(10)}}>
+                    <h6 className='text-explorecolor font-semibold opacity-100' >Powerful Blockchain Data API</h6>
+                    <p className={click === 10 ? 'text-xploreecolor mt-1 block' : 'text-explorecolor mt-1 hidden transition ease-linear'}>We’ve powered exchanges, data analysts, enthusiasts, and more.</p>
+                </div>
+
+                <div className='bg-transparent border-2 border-explorecard p-4 rounded-xl w-2/5 cursor-pointer' onClick={() => {handleClick(11)}}>
+                    <h6 className='text-explorecolor font-semibold opacity-100' >Industry-leading charts</h6>
+                    <p className={click === 11 ? 'text-explorecolor mt-1 block' : 'text-explorecolor mt-1 hidden transition ease-linear'}>From hashrate, to block details, to mining information, and more.</p>
+                </div>
+
+                <div className='bg-transparent border-2 border-explorecard p-4 rounded-xl w-2/5 cursor-pointer' onClick={() => {handleClick(8)}}>
+                    <h6 className='text-explorecolor font-semibold opacity-100' >Real-time crypto prices</h6>
+                    <p className={click === 8 ? 'text-explorecolor mt-1 block' : 'text-explorecolor mt-1 hidden transition ease-linear'}>Real-time crypto prices</p>
+                </div>
+                <div>
+                    <button className='bg-explorecolor py-3 px-5 rounded-xl text-explorecard font-semibold'>Explore Now</button>
+                </div>
+            </div>
+        </div>
         <div id='institution'></div>
     </div>
   )

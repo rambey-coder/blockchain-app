@@ -13,7 +13,13 @@ module.exports = {
         buytext: 'rgb(83, 34, 229)',
         walletbg: 'rgba(239, 236, 254, 0.5)',
         walletcard: 'rgb(239, 236, 254)',
-        walletcolor: 'rgb(115, 73, 242)'
+        walletcolor: 'rgb(115, 73, 242)',
+        exchangebg: 'rgba(236, 245, 254, 0.5)',
+        exchangecard: 'rgb(236, 245, 254)',
+        exchangecolor: 'rgb(61, 137, 245)',
+        explorebg: 'rgba(255, 242, 229, 0.5)',
+        explorecard: 'rgb(255, 242, 229)',
+        explorecolor: 'rgb(242, 139, 36)'
       }
     },
   },
