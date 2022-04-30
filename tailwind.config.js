@@ -19,7 +19,12 @@ module.exports = {
         exchangecolor: 'rgb(61, 137, 245)',
         explorebg: 'rgba(255, 242, 229, 0.5)',
         explorecard: 'rgb(255, 242, 229)',
-        explorecolor: 'rgb(242, 139, 36)'
+        explorecolor: 'rgb(242, 139, 36)',
+        instbg: 'rgba(239, 236, 254, 0.5)',
+        instcard: 'rgb(223, 227, 235)',
+        instcolor: 'rgb(103, 113, 133)',
+        bld: '#121D33'
+
       }
     },
   },

@@ -98,7 +98,7 @@ const Others = () => {
 
                 <div className='bg-transparent border-2 border-explorecard p-4 rounded-xl w-2/5 cursor-pointer' onClick={() => {handleClick(10)}}>
                     <h6 className='text-explorecolor font-semibold opacity-100' >Powerful Blockchain Data API</h6>
-                    <p className={click === 10 ? 'text-xploreecolor mt-1 block' : 'text-explorecolor mt-1 hidden transition ease-linear'}>We’ve powered exchanges, data analysts, enthusiasts, and more.</p>
+                    <p className={click === 10 ? 'text-explorecolor mt-1 block' : 'text-explorecolor mt-1 hidden transition ease-linear'}>We’ve powered exchanges, data analysts, enthusiasts, and more.</p>
                 </div>
 
                 <div className='bg-transparent border-2 border-explorecard p-4 rounded-xl w-2/5 cursor-pointer' onClick={() => {handleClick(11)}}>
@@ -115,7 +115,19 @@ const Others = () => {
                 </div>
             </div>
         </div>
-        <div id='institution'></div>
+        <div id='institution' className='bg-instbg  p-10 rounded-3xl'>
+            <div className='flex items-center bg-instcard w-1/5 py-4 px-3 rounded-xl'>
+                    <i className="fa-solid fa-house-chimney text-instcolor mr-3 text-2xl"></i>
+                    <h3 className='text-instcolor font-medium'>Institutional</h3>
+                </div>
+
+            <h1 className='text-bld font-bold text-3xl my-5 w-3/6'>Bespoke crypto lending, trading, and custody for institutions</h1>
+
+            <p className='text-bld w-3/6 font-medium mb-4'>Blockchain.com Institutional Markets is a full-stack crypto services platform that works with crypto-native businesses and institutional clients on lending, trading, and custody solutions tailored to your needs.</p>
+
+            <button className='bg-instcolor py-3 px-5 rounded-xl text-instcard font-semibold'>Become a Client</button>
+        </div>
+        
     </div>
   )
 }
