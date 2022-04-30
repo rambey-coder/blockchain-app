@@ -10,7 +10,10 @@ module.exports = {
         tradecolor: 'rgb(230, 250, 236)',
         tradetext: 'rgb(0, 153, 76)',
         buycolor: 'rgb(239, 236, 254)',
-        buytext: 'rgb(83, 34, 229)'
+        buytext: 'rgb(83, 34, 229)',
+        walletbg: 'rgba(239, 236, 254, 0.5)',
+        walletcard: 'rgb(239, 236, 254)',
+        walletcolor: 'rgb(115, 73, 242)'
       }
     },
   },

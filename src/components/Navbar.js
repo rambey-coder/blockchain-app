@@ -15,10 +15,10 @@ const Navbar = () => {
         <div className='hidden md:flex items-center justify-between w-2/3'>
             <div className='w-2/4'>
                 <ul className='flex items-center justify-between text-textcolor font-semibold'>
-                    <a><li>Wallet</li></a>
-                    <a><li>Exchange</li></a>
-                    <a><li>Explorer</li></a>
-                    <a><li>Institutional</li></a>
+                    <a href='wallet'><li>Wallet</li></a>
+                    <a href='exchange'><li>Exchange</li></a>
+                    <a href='explore'><li>Explorer</li></a>
+                    <a href='institution'><li>Institutional</li></a>
                 </ul>
             </div>
 

@@ -3,6 +3,7 @@ import axios from 'axios';
 import Card from './components/Card';
 import Hero from './components/Hero';
 import Navbar from './components/Navbar';
+import Others from './components/Others';
 
 function App() {
   const [cards, setCards] = useState([]);
@@ -30,6 +31,7 @@ function App() {
         })
       }
       </div>
+      <Others />
     </div>
   );
 }
