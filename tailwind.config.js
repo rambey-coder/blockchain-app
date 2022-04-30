@@ -6,6 +6,7 @@ module.exports = {
     extend: {
       colors: {
         navcolor: "rgb(18, 29, 51)",
+        navbg: '#2c2c2c',
         textcolor: "rgb(204, 210, 222)",
         tradecolor: 'rgb(230, 250, 236)',
         tradetext: 'rgb(0, 153, 76)',
