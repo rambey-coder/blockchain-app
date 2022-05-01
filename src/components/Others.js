@@ -127,14 +127,14 @@ const Others = () => {
             </div>
         </div>
         <div id='institution' className='bg-instbg  p-10 rounded-3xl'>
-            <div className='flex items-center bg-instcard w-1/5 py-4 px-3 rounded-xl'>
+            <div className='flex items-center bg-instcard w-full md:w-1/5 py-4 px-3 rounded-xl'>
                     <i className="fa-solid fa-house-chimney text-instcolor mr-3 text-2xl"></i>
                     <h3 className='text-instcolor font-medium'>Institutional</h3>
                 </div>
 
-            <h1 className='text-bld font-bold text-3xl my-5 w-3/6'>Bespoke crypto lending, trading, and custody for institutions</h1>
+            <h1 className='text-bld font-bold text-3xl my-5 w-auto md:w-3/6'>Bespoke crypto lending, trading, and custody for institutions</h1>
 
-            <p className='text-bld w-3/6 font-medium mb-4'>Blockchain.com Institutional Markets is a full-stack crypto services platform that works with crypto-native businesses and institutional clients on lending, trading, and custody solutions tailored to your needs.</p>
+            <p className='text-bld w-auto md:w-3/6 font-medium mb-4'>Blockchain.com Institutional Markets is a full-stack crypto services platform that works with crypto-native businesses and institutional clients on lending, trading, and custody solutions tailored to your needs.</p>
 
             <button className='bg-instcolor py-3 px-5 rounded-xl text-instcard font-semibold'>Become a Client</button>
         </div>
