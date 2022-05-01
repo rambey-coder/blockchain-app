@@ -2,7 +2,7 @@ import React from 'react'
 
 const Card = ({ name, image, symbol, price, priceChange }) => {
   return (
-    <div className='w-[30%] shadow-lg bg-white shadow-indigo-500/40 px-4 py-4 rounded'>
+    <div className='md:w-[30%] shadow-lg bg-white shadow-indigo-500/40 px-4 py-4 rounded w-[100%]'>
         <div>
             <div className='flex items-center justify-between'>
                 <img src={image} alt="crypto" className='w-9'/>

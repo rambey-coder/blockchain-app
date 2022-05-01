@@ -16,7 +16,7 @@ function App() {
     <div className="App">
       <Navbar />
       <Hero />
-      <div className='max-w-[1240px] mx-auto px-4 py-20 flex items-center justify-between flex-wrap w-[90%] gap-7'>
+      <div className='max-w-[1240px] mx-auto px-4 py-20 flex items-center justify-between flex-wrap w-[90%] gap-7 flex-col md:flex-row'>
       {
         cards.map(card => {
           return(
